@@ -4,13 +4,10 @@ body {
 	margin: 0 auto;
 }
 
-
 /ocultar audio
 #audio {
   display: none;
 }
-
-  
 
 main:after{
 	content: '';
