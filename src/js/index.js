@@ -16,6 +16,10 @@ const imagens = document.querySelectorAll('.imagem');
 botoesCarrossel.forEach((botao, indice) => {
   botao.addEventListener('click', () => {
       
+  //trilha sonora em violão da série tlous
+  var audio = document.getElementById("trilha_sonora");
+  audio.play();
+
     console.log(indice);
     
     // - passo 3 - desmarcar o botão selecionado anterior
