@@ -4,6 +4,14 @@ body {
 	margin: 0 auto;
 }
 
+
+/ocultar audio
+#audio {
+  display: none;
+}
+
+  
+
 main:after{
 	content: '';
 	min-height: 100vh;
